@@ -16,7 +16,6 @@ body{
   align-items: center;
   display: flex;  
   background-color: #480c705b;
-  border-radius: 5%;
 }
  
 header img{
@@ -72,10 +71,12 @@ section {
 #sobre p{
   margin-top: 1%;
   font-size: 1.2em;
+  margin-left: 20%;
 }
 
 #sobre h2{
   color: #c691f1;
+  margin-left: 20%;
   font-size: 5.5em;
 }
 
