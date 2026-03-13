@@ -1,14 +1,14 @@
-window.onscroll = function() {scrollFunction()};
+// Botão de voltar ao topo
+const scrollBtn = document.getElementById('scrollTop');
 
-function scrollFunction() {
-    if (document.body.scrollTop > 720 || document.documentElement.scrollTop > 720) {
-        document.getElementById("myBtn").style.display = "block";
-    }else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
+window.onscroll = function () {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    scrollBtn.style.display = 'flex';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+};
 
-function topFunction(){
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+scrollBtn.addEventListener('click', function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
