@@ -1,190 +1,311 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/minhalogo.png"/>
-    <script src="js/script.js"></script>
-    <!-- GOOGLE FONTS -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-     <!-- FIM GOOGLE FONTES -->
-  
-     <title>Meu Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mylena Soares — Dev Frontend</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/minhalogo.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--menu-->
-    <header>
-        <nav>
-            <div class="container">
-                <img src="img/minhalogo.png">
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <section id="sobre" class="bg-light">
-        <div class="container-sobre">
-            <h2>Quem sou?</h2>
-            <p>Sou a Mylena, tenho 18 anos e moro em Cotia-SP. 
-                Estou buscando entrar no mercado de trabalho e ter minha primeira experiência profissional. 
-                Atualmente estou fazendo uma faculdade de 
-                ciência da computação. Sou apaixonada pela programação, amo estimular minha criatividade. 
-                Me encontrei na área da tecnologia por conta desta minha paixão por criar..
-                 
-                </p>
-        </div>
-    </section>
-   
-                 <h2 class="title">Portfolio:</h2>
-    <section id="portfolio">
-        <div class="container-portfolio">
-           
-       
-            <div class="projeto">
-                <img src="img/imagem1.png" alt="Projeto 1">
-                <h3>Barbie Fan-page</h3>
-                <p>Um site que foi utilizado Grid e Flexbox.</p>
-                <a href="https://github.com/B3ery/meu_primeiro_site/blob/main/index.html">Ver mais</a>
-            </div>
+  <nav>
+    <a href="#hero" class="nav-logo">
+      <span></span>
+      Mylena.dev
+    </a>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-            <div class="projeto">
-                <img src="img/imagem2.png" alt="Projeto 2">
-                <h3>Lista de Tarefas</h3>
-                <p>Uma lista que foi desenvolivida com arrays</p>
-                <a href="https://github.com/B3ery/Lista-de-tarefas/blob/main/index.html">Ver mais</a>
-            </div>
-    
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="hero-content">
+      <div class="hero-tag fade-up">Disponível para oportunidades</div>
+      <h1 class="hero-title fade-up delay-1">
+        Olá, sou<br>
+        <em>Mylena Soares</em>
+      </h1>
+      <p class="hero-sub fade-up delay-2">
+        Desenvolvedora Frontend apaixonada por criar experiências digitais criativas.
+        Estudante de Ciência da Computação, baseada em Cotia-SP.
+      </p>
+      <div class="hero-btns fade-up delay-3">
+        <a href="#portfolio" class="btn-primary">Ver meus projetos</a>
+        <a href="#contato" class="btn-ghost">Entrar em contato</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
 
-        <div class="projeto">
-            <img src="img/imagem3.png" alt="Projeto 3">
-            <h3>Bloco de notas</h3>
-            <p>Foi desenvolivido utilizando Localstorage.</p>
-            <a href="https://github.com/B3ery/app-bloco-de-notas">Ver mais</a>
+  <section id="sobre">
+    <div class="sobre-grid">
+      <div>
+        <div class="section-label">Sobre mim</div>
+        <h2 class="section-title">Quem sou eu?</h2>
+        <div class="sobre-stats">
+          <div class="stat-card">
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Projetos criados</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Tecnologias</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">18</div>
+            <div class="stat-label">Anos de idade</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Criatividade</div>
+          </div>
         </div>
-    
-        <div class="projeto">
-            <img src="img/imagem4.png" alt="Projeto 4">
-            <h3>Jogo da Memória</h3>
-            <p>Um jogo feito com objeto Javascript</p>
-            <a href="https://github.com/B3ery/app-jogo-da-memoria-frozen">Ver mais</a>
+      </div>
+      <div class="sobre-visual">
+        <div class="sobre-deco"></div>
+        <div class="sobre-card">
+          <p>
+            Sou a <em>Mylena</em>, tenho 20 anos e moro em <em>Cotia-SP</em>.
+            Estou Estagiando na Area de suporte de TI.
+          </p>
+          <br>
+          <p>
+            Atualmente curso <em>Ciência da Computação</em> e sou apaixonada por programação.
+            Amo estimular minha criatividade e me encontrei na área da tecnologia por conta dessa paixão por criar coisas novas.
+          </p>
         </div>
-       
-        <div class="projeto">
-            <img src="img/imagem5.png" alt="Projeto 5">
-            <h3>Site ONG</h3>
-            <p>Um site desenvolivido utilizando HTML5 e CSS3</p>
-            <a href="https://github.com/B3ery/site_ong">Ver mais</a>
-        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="projeto">
-            <img src="img/imagem6.png" alt="Projeto 6">
-            <h3>API via Cep</h3>
-            <p> Um site que está consumindo uma API via Cep</p>
-            <a href="https://github.com/B3ery/consumindo-api">Ver mais</a>
-        </div>
+  <section id="portfolio">
+    <div class="section-label">Trabalhos</div>
+    <h2 class="section-title">Meu Portfolio</h2>
+    <p class="section-desc">Uma seleção dos projetos que desenvolvi durante minha jornada como desenvolvedora.</p>
+    <div class="portfolio-grid">
 
-        <div class="projeto">
-            <img src="img/imagem7.png" alt="Projeto 7">
-            <h3>Calculadora IMC</h3>
-            <p> Uma calculadora IMC desenvolivida com Javascript.</p>
-            <a href="https://github.com/B3ery/calculadora_IMC">Ver mais</a>
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem1.png" alt="Barbie Fan-page">
+          <div class="projeto-thumb-overlay"></div>
         </div>
-        
-        <div class="projeto">
-            <img src="img/imagem8.png" alt="Projeto 8">
-            <h3>Quiz</h3>
-            <p>Um quiz interativo desenvolvido em HTML5, CSS3 e JavaScript.</p>
-            <a href="https://github.com/B3ery/calculadora_IMC">Ver mais</a>
+        <div class="projeto-body">
+          <h3>Barbie Fan-page</h3>
+          <p>Site desenvolvido utilizando CSS Grid e Flexbox para layout responsivo.</p>
+          <a href="https://github.com/B3ery/meu_primeiro_site/blob/main/index.html" target="_blank" class="projeto-link">Ver no GitHub</a>
         </div>
+      </div>
 
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem2.png" alt="Lista de Tarefas">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Lista de Tarefas</h3>
+          <p>Aplicação de to-do list desenvolvida com arrays em JavaScript.</p>
+          <a href="https://github.com/B3ery/Lista-de-tarefas/blob/main/index.html" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem3.png" alt="Bloco de Notas">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Bloco de Notas</h3>
+          <p>App de anotações com persistência de dados via LocalStorage.</p>
+          <a href="https://github.com/B3ery/app-bloco-de-notas" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem4.png" alt="Jogo da Memória">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Jogo da Memória</h3>
+          <p>Jogo interativo da memória com tema Frozen, usando objetos JavaScript.</p>
+          <a href="https://github.com/B3ery/app-jogo-da-memoria-frozen" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem5.png" alt="Site ONG">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Site ONG</h3>
+          <p>Site institucional desenvolvido com HTML5 e CSS3 puro.</p>
+          <a href="https://github.com/B3ery/site_ong" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem6.png" alt="API via CEP">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Consulta de CEP</h3>
+          <p>Aplicação que consome uma API externa de consulta de endereço por CEP.</p>
+          <a href="https://github.com/B3ery/consumindo-api" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem7.png" alt="Calculadora IMC">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Calculadora IMC</h3>
+          <p>Calculadora de Índice de Massa Corporal com validações em JavaScript.</p>
+          <a href="https://github.com/B3ery/calculadora_IMC" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <div class="projeto-thumb">
+          <img src="img/imagem8.png" alt="Quiz">
+          <div class="projeto-thumb-overlay"></div>
+        </div>
+        <div class="projeto-body">
+          <h3>Quiz Interativo</h3>
+          <p>Quiz desenvolvido com HTML5, CSS3 e JavaScript com lógica de pontuação.</p>
+          <a href="https://github.com/B3ery/calculadora_IMC" target="_blank" class="projeto-link">Ver no GitHub</a>
+        </div>
+      </div>
 
     </div>
-    </section>
+  </section>
 
+  <section id="habilidades">
+    <div class="section-label">Tecnologias</div>
+    <h2 class="section-title">Minhas Habilidades</h2>
+    <p class="section-desc">Ferramentas e tecnologias que utilizo no meu dia a dia como desenvolvedora.</p>
+    <div class="skills-grid">
 
-    <div class="habilidade bg-light" id="habilidades">
-       
-    <h1 class="title color">Minhas Habilidades:</h1>
-      
-
-        <div class="card-container">
-           
-            <div class="card">
-            <h2>HTML5</h2>
-            <img src="img/html5.png" alt="html">
-          </div>
-         
-          <div class="card">
-            <h2>CSS3</h2>
-            <img src="img/css3.png" alt="css">
-          </div>
-         
-          <div class="card">
-            <h2>Javascript</h2>
-            <img src="img/javascript.png" alt="js">
-          </div>
-          <div class="card">
-            <h2>Trello</h2>
-            <img src="img/trello.png" alt="trello">
-          </div>
-
-          <div class="card">
-            <h2>Canva</h2>
-            <img class="canva" src="img/canva.png" alt="canva">
-          </div>
-
-          <div class="card">
-            <h2>Figma</h2>
-            <img src="img/figma.png" alt="figma">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M4 4l2.4 26.4L16 33l9.6-2.6L28 4H4z" fill="#e34c26"/><path d="M16 30.4V6h10.4L24.2 27.2 16 30.4z" fill="#ef652a"/><path d="M16 12h-4.8l-.2-2H16V8H9.2l.6 6H16v-2zm0 8.4l-3-.8-.2-2.4H10.6l.4 4.4 5 1.4V20.4z" fill="#fff"/><path d="M16 12v2h4.4l-.4 4.2-4 1.1V21.4l4.8-1.4.6-7H16z" fill="#fff"/></svg>
         </div>
+        <h3>HTML5</h3>
+      </div>
 
-         <div class="card">
-            <h2>Photoshop cs6</h2>
-            <img src="img/photoshop.png" alt="photo">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M4 4l2.4 26.4L16 33l9.6-2.6L28 4H4z" fill="#264de4"/><path d="M16 30.4V6h10.4L24.2 27.2 16 30.4z" fill="#2965f1"/><path d="M16 12H9.4l.2 2H16v2H11.8l.2 2.2H16v2l-3-.8-.2-2.4H10.6l.4 4.4 5 1.4V12z" fill="#fff"/><path d="M16 12v2h6l-.2 2H16v2h5.6l-.4 4.2-5.2 1.4V21.4l4.8-1.4.6-7H16z" fill="#ebebeb"/></svg>
         </div>
+        <h3>CSS3</h3>
+      </div>
 
-        <div class="card">
-            <h2>Premiere Pro</h2>
-            <img src="img/premiere.png" alt="premiere">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><rect width="32" height="32" rx="3" fill="#f0db4f"/><path d="M6 26.4l2.8-1.7c.5.9 1 1.6 2.1 1.6 1.1 0 1.7-.4 1.7-2V14h3.5v10.4c0 3.4-2 4.9-4.9 4.9-2.6 0-4.1-1.4-4.8-3l-0.4.1zM17 26.1l2.8-1.6c.7 1.2 1.6 2 3.3 2 1.4 0 2.2-.7 2.2-1.6 0-1.1-.9-1.5-2.4-2.2l-.8-.3c-2.4-1-4-2.3-4-5 0-2.5 1.9-4.4 4.8-4.4 2.1 0 3.6.7 4.6 2.6l-2.7 1.7c-.6-1-1.1-1.4-2-1.4-.9 0-1.5.6-1.5 1.4 0 1 .6 1.4 1.9 2l.8.3c2.8 1.2 4.4 2.4 4.4 5.1 0 2.9-2.3 4.7-5.4 4.7-3 0-5-1.4-5.9-3.3h-.1z" fill="#323330"/></svg>
         </div>
-   
-        <div class="card">
-            <h2>Github</h2>
-            <img src="img/github.png" alt="github">
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><rect width="32" height="32" rx="4" fill="#0052CC"/><path d="M16.2 6L6 17.4h6.2l-1.6 8.6L26 15.1h-6.3L21.5 6z" fill="white"/></svg>
         </div>
-   
+        <h3>Trello</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><circle cx="16" cy="16" r="14" fill="#00C4CC"/><path d="M16 8.5c-1.5 0-2.8.6-3.7 1.6-.8-.5-1.8-.8-2.8-.8C6.9 9.3 5 11.2 5 13.6c0 1.7 1 3.2 2.4 3.9-.1.4-.1.8-.1 1.2 0 3.4 2.7 6.2 6 6.2 1.7 0 3.2-.7 4.3-1.8.7.3 1.4.4 2.2.4 3.3 0 6-2.8 6-6.2 0-.4 0-.8-.1-1.2 1.4-.7 2.4-2.2 2.4-3.9 0-2.4-1.9-4.3-4.5-4.3-1 0-2 .3-2.8.8-.8-1-2.1-1.6-3.7-1.6l-.1.6z" fill="white"/></svg>
+        </div>
+        <h3>Canva</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <rect x="10" y="4" width="8" height="8" rx="4" fill="#F24E1E"/>
+            <rect x="10" y="14" width="8" height="8" rx="4" fill="#A259FF"/>
+            <rect x="4" y="14" width="8" height="8" rx="4" fill="#0ACF83"/>
+            <circle cx="22" cy="18" r="4" fill="#1ABCFE"/>
+          </svg>
+        </div>
+        <h3>Figma</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><rect width="32" height="32" rx="4" fill="#31A8FF"/><path d="M8 22.5V10h3.5c2.8 0 4.8 2 4.8 4.5v3.5c0 2.5-2 4.5-4.8 4.5H8zm2-2h1.5c1.5 0 2.8-1.2 2.8-2.8v-3c0-1.6-1.3-2.8-2.8-2.8H10v8.6zm8 2V10h6.5v2H20v3h4v2h-4v3.5h4.5v2H18z" fill="white"/></svg>
+        </div>
+        <h3>Photoshop</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><rect width="32" height="32" rx="4" fill="#9999FF"/><path d="M8 22.5V10h4.5c2 0 3.5 1.4 3.5 3.2 0 1.2-.7 2.2-1.7 2.8L17 22.5h-2.2l-2.5-6h-2v6H8zm2-8h2c1 0 1.8-.8 1.8-1.8S13 10.8 12 10.8H10V14.5zm8 8V10H24v2h-3.5v3H24v2h-3.5v3.5H24v2H18z" fill="white"/></svg>
+        </div>
+        <h3>Premiere</h3>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><circle cx="16" cy="16" r="14" fill="#1a1a1a"/><path d="M16 5C10 5 5 10 5 16c0 4.9 3.2 9.1 7.6 10.5.6.1.8-.2.8-.5v-1.9c-3.1.7-3.8-1.5-3.8-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.4 0-1.2.4-2.2 1.1-2.9-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.3 2.7-.3.9 0 1.8.1 2.7.3 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.7 1.1 1.7 1.1 2.9 0 4.2-2.6 5.1-5.1 5.4.4.3.8 1 .8 2v3c0 .3.2.6.8.5C23.8 25.1 27 20.9 27 16c0-6-5-11-11-11z" fill="#ffffff"/></svg>
+        </div>
+        <h3>GitHub</h3>
+      </div>
+
     </div>
+  </section>
+
+  <section id="contato">
+    <div class="contato-inner">
+      <div class="section-label" style="justify-content:center">Contato</div>
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p class="section-desc">Estou à procura de oportunidades. Se quiser bater um papo, só entrar em contato!</p>
+      <div class="social-links">
+        <a href="mailto:mylenalyma2005@gmail.com" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          E-mail
+        </a>
+        <a href="https://www.instagram.com/r.mylena_developer/?hl=pt-br" target="_blank" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+          Instagram
+        </a>
+        <a href="https://github.com/B3ery" target="_blank" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/rocha-mylena-soar3s/" target="_blank" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
     </div>
+  </section>
 
-   <!--Contatos--> 
- 
- <section class="container-contatos" id="contato">
-   
-    <h2 class="title-cont">Se interessou? entre em contato comigo!</h2>
-
-   
-    <div class="redes-sociais">
-            <a href="mailto:mylenalyma2005@gmail.com"> <img src="img/email.png" alt="email"></a> 
-            <a href="https://www.instagram.com/r.mylena_developer/?hl=pt-br"> <img src="img/insta.png" alt="insta"></a> 
-            <a href="https://github.com/B3ery"> <img src="img/github.png" alt="github"></a> 
-            <a href="https://www.linkedin.com/in/rocha-mylena-soar3s/"> <img src="img/linkedin.png" alt="linkedin"></a> 
-            </div>
-           
-    
-</section>
-<!--Fim dos Projetos-->
-<img src="img/casa.png" alt="casa" onclick="topFunction()" id="myBtn">
-
-<footer class="bg-light">
-    <p>&copy; 2023 Mylena Soares Rocha</p>
+  <footer>
+    <p>© 2025 Mylena Soares Rocha. Todos os direitos reservados.</p>
+    <a href="#hero">Voltar ao topo ↑</a>
   </footer>
+
+  <button id="scrollTop">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
